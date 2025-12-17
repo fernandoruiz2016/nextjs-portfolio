@@ -14,7 +14,7 @@ export default function Home() {
         {/* navigation and 3d model  */}
         <Navigation />
         <RenderModel>
-          <Wizard></Wizard>
+          <Wizard />
         </RenderModel>
 
       </div>
