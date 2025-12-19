@@ -1,30 +1,28 @@
 "use client"
 import Image from "next/image";
-import bg from "../../../../public/background/about-background.png"
-import RenderModel from "@/components/RenderModel";
-import HatModel from "@/components/models/Hat";
-import AboutDetails from "@/components/about";
+import bg from "../../../../public/background/contact-background.png"
+import Form from "@/components/contact/form";
 
 
-export default function Home() {
+export default function Contact() {
     return (
         <>
             <Image src={bg} alt="background-image" className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25" />
 
-            <div className="w-full h-screen absolute top-1/2 -translate-y-1/2 left-0">
-                <RenderModel>
-                    <HatModel />
-                </RenderModel>
-            </div>
-
-            <div className="relative w-full h-screen flex flex-col items-center justify-center">
-                <div className="absolute flex flex-col items-center text-center top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
-                    <h1 className="font-bold text-9xl text-accent">Fernando</h1>
-                    <p className="font-light text-foreground text-ls">Meet the wizard behind this portfolio</p>
+            <article className="relative w-full flex flex-col items-center justify-center space-y-8">
+                <div className="flex flex-col items-center justify-center space-y-6 w-3/4">
+                    <h1 className="text-accent font-semibold text-center text-4xl capitalize">
+                        Summon the wizard
+                    </h1>
+                    <p className="text-center font-light">
+                        Step into the circle of enchantment and weave your words into the fabric of the cosmos. Whether you 
+                        seek to conjure collaborations, unlock mysteries, or simply share tales of adventure, your messages are 
+                        treasured scrolls within this realm. Use the form below to send your missives through the ethereal 
+                        network, and await the whisper of magic in response.
+                    </p>
                 </div>
-            </div>
-
-            <AboutDetails />
+                <Form />
+            </article>
         </>
     );
 }
