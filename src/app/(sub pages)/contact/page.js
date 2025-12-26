@@ -7,7 +7,7 @@ import Form from "@/components/contact/form";
 export default function Contact() {
     return (
         <>
-            <Image src={bg} alt="background-image" className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25" />
+            <Image priority sizes="100vw" src={bg} alt="background-image" className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25" />
 
             <article className="relative w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
                 <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">

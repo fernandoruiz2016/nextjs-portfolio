@@ -3,14 +3,16 @@ import Image from "next/image";
 import bg from "../../../../public/background/projects-background.png"
 import ProjectList from "@/components/projects";
 import { projectsData } from "../../data";
-import Staff from "@/components/models/Staff";
+// import Staff from "@/components/models/Staff";
 import RenderModel from "@/components/RenderModel";
+import dynamic from "next/dynamic";
 
+const Staff = dynamic(() => import("@/components/models/Staff"), { ssr: false })
 
 export default function Home() {
     return (
         <>
-            <Image src={bg} alt="background-image" className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25" />
+            <Image priority sizes="100vw" src={bg} alt="background-image" className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25" />
 
             <ProjectList projects={projectsData} />
 
