@@ -7,13 +7,13 @@ This repository contains the source code for my **personal creative developer po
 ## 🌐 Live Demo
 
 👉 **Portfolio Website:**  
-https://nextjs-portfolio.vercel.app  
+https://fernando-ruiz-portfolio.vercel.app/
 
 ---
 
 ## 🧙 About the Project
 
-My career in frontend and backend development is powered by modern JavaScript technologies.  
+My career as a developer is powered by modern JavaScript technologies.  
 This portfolio highlights:
 
 - Experience with **React.js & Next.js**
