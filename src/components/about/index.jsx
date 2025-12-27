@@ -9,13 +9,13 @@ const AboutDetails = () => {
                     <h2 className='text-xl md:text-2xl text-left w-full capitalize'>
                         Architect of Enchantment
                     </h2>
-                    <p className='font-light text-xs sm:text-sm md:text-base'>My journey in web development is powered by an array of mystical tools and languages, with JavaScript 
-                        casting the core of my enchantments. I wield frameworks like React.js and Next.js with precision, crafting 
-                        seamless portals (websites) that connect realms (users) across the digital universe. The ancient arts of the 
-                        Jamstack empower me to create fast, secure, and dynamic experiences, while my design skills ensure every 
-                        creation is not only functional but visually captivating. Join me as I continue to explore new spells and 
-                        technologies to shape the future of the web.
-                        </p>
+                    <p className='font-light text-xs sm:text-sm md:text-base'>
+                        I am an adventurer and developer mage, mastering both frontend and backend arts.
+                        JavaScript and Python are my core spells, channeled through powerful frameworks like React and Next.js.
+                        My grimoires include database management, where I work with SQL Server and SQL Developer to store and protect knowledge.
+                        Every project is an enchantment in progress, blending performance, clean architecture, and visual design to create captivating digital experiences.
+                        Join me as I continue to explore new spells and technologies to shape the future of the web.
+                    </p>
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-full xs:col-span-6 lg:col-span-4 text-accent'}>
@@ -31,31 +31,29 @@ const AboutDetails = () => {
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-full sm:col-span-6 md:col-span-4 !p-0'}>
-                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/top-langs?username=fernandoruiz2016&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" 
-                    alt="Fernando" loading="lazy" />
+                    <img className='w-full h-auto' src="https://github-readme-stats-beige-iota-81.vercel.app/api/top-langs?username=fernandoruiz2016&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+                        alt="Fernando" loading="lazy" />
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-full md:col-span-8 !p-0'}>
-                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api?username=fernandoruiz2016&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" 
-                    alt="Fernando" loading="lazy" />
+                    <img className='w-full h-auto' src="https://github-readme-stats-beige-iota-81.vercel.app/api?username=fernandoruiz2016&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+                        alt="Fernando" loading="lazy" />
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-full md:col-span-full'}>
-                    <img className='w-full h-auto' src="https://skillicons.dev/icons?i=bootstrap,css,figma,git,github,html,js,nextjs,postgres,pycharm,py,react,ts,vercel,vite,vscode" 
-                    alt="Fernando" loading="lazy" />
+                    <img className='w-full h-auto' src="https://skillicons.dev/icons?i=bootstrap,css,figma,git,github,html,js,nextjs,postgres,pycharm,py,react,ts,vercel,vite,vscode"
+                        alt="Fernando" loading="lazy" />
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
-                    <img className='w-full h-auto' src="https://github-readme-streak-stats.herokuapp.com?user=fernandoruiz2016&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="Fernando" loading='lazy'/>
+                    <img className='w-full h-auto' src="https://github-readme-streak-stats.herokuapp.com?user=fernandoruiz2016&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="Fernando" loading='lazy' />
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-full md:col-span-6 !p-0'}>
-                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=fernandoruiz2016&repo=nextjs-portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2" 
-                    alt="Fernando" loading="lazy" />
+                    <img className='w-full h-auto' src="https://github-readme-stats-beige-iota-81.vercel.app/api/pin/?username=fernandoruiz2016&repo=nextjs-portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
+                        alt="Fernando" loading="lazy" />
                 </ItemLayout>
 
-{/* host your own repo */}
-                
             </div>
         </section>
     )

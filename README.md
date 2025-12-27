@@ -1,4 +1,4 @@
-# 🚀 Fernando Ruiz – Portfolio
+# Fernando Ruiz – Portfolio
 
 This repository contains the source code for my **personal creative developer portfolio**, built with **Next.js** and **Tailwind CSS**, showcasing my projects, skills, and experience as a web developer.
 
@@ -6,12 +6,12 @@ This repository contains the source code for my **personal creative developer po
 
 ## 🌐 Live Demo
 
-👉 **Portfolio Website:**  
+**Portfolio Website:**  
 https://fernando-ruiz-portfolio.vercel.app/
 
 ---
 
-## 🧙 About the Project
+## About the Project
 
 My career as a developer is powered by modern JavaScript technologies.  
 This portfolio highlights:
@@ -25,7 +25,7 @@ The goal of this project is to present **who I am, what I build, and how I think
 
 ---
 
-## 🖼️ Portfolio Sections
+## Portfolio Sections
 
 ### Home
 Introduction and first impression.
@@ -41,7 +41,7 @@ Ways to get in touch.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js
 - **UI Library:** React
