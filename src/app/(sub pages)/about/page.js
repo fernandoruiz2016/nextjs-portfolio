@@ -18,7 +18,7 @@ export default function Home() {
                 </RenderModel>
             </div>
 
-            <div className="relative w-full h-screen flex flex-col items-center justify-center">
+            <div className="relative w-full h-screen flex flex-col items-center justify-center mt-32 xs:mt-20">
                 <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
                     <h1 className="w-[90vw] overflow-hidden font-bold text-6xl mt-4 xs:text-4xl sm:text-5xl lg:text-6xl text-accent">Fernando Alonso Ruiz Yamamoto</h1>
                     <p className="font-light text-foreground text-ls">Meet the wizard behind this portfolio</p>
