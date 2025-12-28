@@ -6,6 +6,7 @@ import Navigation from "@/components/navigation";
 import dynamic from "next/dynamic";
 
 const Wizard = dynamic(() => import("@/components/models/Wizard"), { ssr: false })
+const Circle = dynamic(() => import("@/components/models/Circle"), { ssr: false })
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         {/* navigation and 3d model  */}
         <Navigation />
         <RenderModel>
-          <Wizard />
+          <Circle />
         </RenderModel>
 
       </div>
