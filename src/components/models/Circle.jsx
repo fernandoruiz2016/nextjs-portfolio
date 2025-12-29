@@ -16,7 +16,7 @@ export default function Circle(props) {
   useFrame((state, delta, xrFrame) => {
     // console.log(state.clock)
     modelRef.current.position.y = 0 + Math.sin(state.clock.elapsedTime) * 0.15;
-    modelRef.current.rotation.z += delta * 0.3
+    modelRef.current.rotation.y += delta * 0.2
   })
 
   const { actions } = useAnimations(animations)

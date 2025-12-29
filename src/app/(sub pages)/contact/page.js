@@ -15,10 +15,9 @@ export default function Contact() {
                         Summon the wizard
                     </h1>
                     <p className="text-center font-light text-sm xs:text-base">
-                        Step into the circle of enchantment and weave your words into the fabric of the cosmos. Whether you 
-                        seek to conjure collaborations, unlock mysteries, or simply share tales of adventure, your messages are 
-                        treasured scrolls within this realm. Use the form below to send your missives through the ethereal 
-                        network, and await the whisper of magic in response.
+                        Enter this arcane space and let your message travel beyond the space. 
+                        Whether you wish to forge new alliances, explore ideas, or simply reach out, every word you send carries meaning. 
+                        Use the form below to transmit your message across this digital realm, and expect a response guided by curiosity and intention.
                     </p>
                 </div>
                 <Form />
