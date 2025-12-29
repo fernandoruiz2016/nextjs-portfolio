@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser'
 import { toast, Toaster } from 'sonner';
 import { motion } from 'framer-motion';
+import { useLanguage } from '@/context/LanguageContext'
 
 const container = {
     hidden: {opacity: 0},
@@ -60,6 +61,8 @@ export default function Form() {
     };
     console.log(errors);
 
+    const {t} = useLanguage();
+
     return (
         <>
         <Toaster richColors={true} />
@@ -75,7 +78,7 @@ export default function Form() {
             <motion.input
             variants={item}
 
-            type="text" placeholder="name" {...register("name", { required: 'This field is required!', 
+            type="text" placeholder={t("ContactName")} {...register("name", { required: 'This field is required!', 
             minLength: {
                 value: 3,
                 message: "Name should be at least 3 characters long"
@@ -99,7 +102,7 @@ export default function Form() {
             <motion.textarea 
             variants={item}
             
-            placeholder='message' {...register("message", { required: 'This field is required!', maxLength: {
+            placeholder={t("ContactMessage")} {...register("message", { required: 'This field is required!', maxLength: {
                 value: 500,
                 message: "Message should be less than 500 characters" 
             }, minLength: {
@@ -115,7 +118,7 @@ export default function Form() {
             <motion.input
             variants={item}
 
-            value="Cast your message!" className='px-10 py-4 rounded-md shadow-lg bg-background border border-accent/30 border-solid hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-accent/50 cursor-pointer capitalize' type="submit" />
+            value={t("ContactButton")} className='px-10 py-4 rounded-md shadow-lg bg-background border border-accent/30 border-solid hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-accent/50 cursor-pointer capitalize' type="submit" />
         </motion.form>
         </>
 

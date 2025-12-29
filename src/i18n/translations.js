@@ -22,7 +22,7 @@ export const translations = {
         ContactText: "Entra en este espacio arcano y deja que tu mensaje viaje más allá del tiempo y la distancia. Ya sea para forjar nuevas alianzas, explorar ideas o simplemente comunicarte, cada palabra que envías tiene valor. Usa el formulario a continuación para transmitir tu mensaje a través de este reino digital y espera una respuesta guiada por la curiosidad y la intención.",
         ContactName: "nombre",
         ContactMessage: "mensaje",
-        ContactButton: "¡Lanzar Mensaje!",
+        ContactButton: "¡Enviar Mensaje!",
         LanguageButton: "Español"
     }
 }
