@@ -3,9 +3,13 @@ import clsx from "clsx";
 import "./globals.css";
 import FirefliesBackground from "@/components/FirefliesBackground";
 import Sound from "@/components/sound";
+import { LanguageProvider } from "@/context/LanguageContext";
+import LanguageButton from "@/components/LanguageButton";
 
-const inter = Inter({ subsets: ["latin"],
-variable: "--font-inter" });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter"
+});
 
 export const metadata = {
   title: "Fernando Ruiz - Portfolio",
@@ -15,10 +19,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={clsx(inter.variable, "bg-background text-foreground font-inter")}>{children}
-        <FirefliesBackground />
-        <Sound />
-        <div id="my-modal" />
+      <body className={clsx(inter.variable, "bg-background text-foreground font-inter")}>
+        <LanguageProvider>
+          <FirefliesBackground />
+          <Sound />
+          {children}
+          <div id="my-modal" />
+          <LanguageButton />
+        </LanguageProvider>
+
+
+
       </body>
     </html>
   );

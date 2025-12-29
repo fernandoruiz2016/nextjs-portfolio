@@ -5,10 +5,13 @@ import RenderModel from "@/components/RenderModel";
 // import HatModel from "@/components/models/Hat";
 import AboutDetails from "@/components/about";
 import dynamic from "next/dynamic";
+import { useLanguage } from '@/context/LanguageContext'
 
 const HatModel = dynamic(() => import("@/components/models/Hat"), { ssr: false })
 
 export default function Home() {
+    const {t} = useLanguage();
+
     return (
         <>
             <Image priority sizes="100vw" src={bg} alt="background-image" className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25" />
@@ -21,7 +24,7 @@ export default function Home() {
             <div className="relative w-full h-screen flex flex-col items-center justify-center mt-32 xs:mt-20">
                 <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
                     <h1 className="w-[90vw] overflow-hidden font-bold text-6xl mt-4 xs:text-4xl sm:text-5xl lg:text-6xl text-accent">Fernando Alonso Ruiz Yamamoto</h1>
-                    <p className="font-light text-foreground text-ls">Meet the wizard behind this portfolio</p>
+                    <p className="font-light text-foreground text-ls">{t("AboutTitle")}</p>
                 </div>
             </div>
 

@@ -1,20 +1,19 @@
 import React from 'react'
 import ItemLayout from './ItemLayout'
+import { useLanguage } from '@/context/LanguageContext'
 
 const AboutDetails = () => {
+    const {t} = useLanguage();
+
     return (
         <section className='py-20 w-full'>
             <div className='grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full'>
                 <ItemLayout className={'col-span-full row-span-2 flex-col items-start'}>
                     <h2 className='text-xl md:text-2xl text-center w-full capitalize text-accent'>
-                        Architect of Enchantment
+                        {t("AboutSubtitle")}
                     </h2>
                     <p className='text-center font-light text-xs sm:text-sm md:text-base'>
-                        I am an adventurer and developer mage, mastering both frontend and backend arts.
-                        JavaScript and Python are my core spells, channeled through powerful frameworks like React and Next.js.
-                        My grimoires include database management, where I work with SQL Server and SQL Developer to store and protect knowledge.
-                        Every project is an enchantment in progress, blending performance, clean architecture, and visual design to create captivating digital experiences.
-                        Join me as I continue to explore new spells and technologies to shape the future of the web.
+                        {t("AboutText")}
                     </p>
                 </ItemLayout>
 
@@ -35,7 +34,7 @@ const AboutDetails = () => {
                         alt="Fernando" loading="lazy" /> */}
 
                     <h2 className='text-xl md:text-2xl text-center w-full capitalize text-accent'>
-                        Most Used Spells
+                        {t("AboutSpells")}
                     </h2>
                     <ul className="grid grid-cols-1 gap-4 xs:grid-cols-2">
                         <li className="flex gap-5 items-center w-full">
@@ -70,7 +69,7 @@ const AboutDetails = () => {
                         alt="Fernando" loading="lazy" /> */}
 
                     <h2 className='text-xl md:text-2xl text-center w-full capitalize text-accent'>
-                        Favorites Grimoires
+                        {t("AboutGrimoires")}
                     </h2>
                     <ul className="grid grid-cols-1 gap-4 xs:grid-cols-2">
                         <li className="flex gap-5 items-center">

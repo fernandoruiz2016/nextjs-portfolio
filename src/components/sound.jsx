@@ -85,8 +85,8 @@ const Sound = () => {
                 transition={{ delay: 1 }}
 
                 className='w-10 h-10 xs:w-14 xs:h-14 text-foreground rounded-full flex items-center justify-center cursor-pointer z-50 p-2.5 xs:p-4 custom-bg'
-                aria-label={"home"}
-                name={"home"}
+                aria-label={"sound"}
+                name={"sound"}
             >
                 {
                     isPlaying ?
