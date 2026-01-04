@@ -36,7 +36,7 @@ const item = {
 
 const NavLink = motion(Link)
 
-const NavButton = ({ x, y, label, labelEs, link, icon, newTab, labelDirection = "right" }) => {
+const NavButton = ({ x, y, label, labelEs, link, linkEs, icon, newTab, labelDirection = "right" }) => {
     const { lang } = useLanguage()
 
     return (
@@ -47,7 +47,7 @@ const NavButton = ({ x, y, label, labelEs, link, icon, newTab, labelDirection = 
                         <div className='absolute cursor-pointer z-50' style={{ transform: `translate(${x}, ${y})` }}>
                             <NavLink
                                 variants={item}
-                                href={link}
+                                href={lang === "en" ? link : linkEs}
                                 target={newTab ? '_blank' : `_self`}
                                 className='text-foreground rounded-full flex items-center justify-center 
                                 custom-bg'
@@ -68,12 +68,12 @@ const NavButton = ({ x, y, label, labelEs, link, icon, newTab, labelDirection = 
                         <div className='w-fit cursor-pointer z-50'>
                             <NavLink
                                 variants={item}
-                                href={link}
+                                href={lang === "en" ? link : linkEs}
                                 target={newTab ? '_blank' : `_self`}
                                 className='text-foreground rounded-full flex items-center justify-center 
                                 custom-bg'
                                 aria-label={label}
-                                name={label}
+                                name={lang === "en" ? label : labelEs}
                             >
                                 <span className='relative w-10 h-10 xs:w-14 xs:h-14 p-2.5 xs:p-4 hover:text-accent'>
                                     {getIcon(icon)}

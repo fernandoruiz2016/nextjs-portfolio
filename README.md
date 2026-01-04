@@ -65,7 +65,7 @@ npm run dev
 
 ```
 
-La aplicación se ejecutará en el puerto 3000 en http://localhost:3000.
+The app will be executed on port 3000 at http://localhost:3000.
 
 ## Credits
 

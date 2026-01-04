@@ -42,7 +42,7 @@ export const projectsData = [
     description: "Frontend of a restaurant using React",
     descriptionEs: "Frontend de un restaurante con React",
     date: "2025-11-06",
-    demoLink: "https://github.com/fernandoruiz2016/Trattoria",
+    demoLink: "https://trattoria-orcin.vercel.app/",
   },
   {
     id: 4,
@@ -57,13 +57,14 @@ export const projectsData = [
 
 export const BtnList = [
   { label: "Home", labelEs: "Inicio", link: "/", icon: "home", newTab: false },
-  { label: "About", labelEs: "Sobre mí", link: "/about", icon: "about", newTab: false },
-  { label: "Projects", labelEs: "Projectos", link: "/projects", icon: "projects", newTab: false },
-  { label: "Contact", labelEs: "Contacto", link: "/contact", icon: "contact", newTab: false },
+  { label: "About", labelEs: "Sobre mí", link: "/about", linkEs: "/about", icon: "about", newTab: false },
+  { label: "Projects", labelEs: "Projectos", link: "/projects", linkEs: "/projects", icon: "projects", newTab: false },
+  { label: "Contact", labelEs: "Contacto", link: "/contact", linkEs: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
     labelEs: "Github",
     link: "https://github.com/fernandoruiz2016",
+    linkEs: "https://github.com/fernandoruiz2016",
     icon: "github",
     newTab: true,
   },
@@ -71,6 +72,7 @@ export const BtnList = [
     label: "LinkedIn",
     labelEs: "LinkedIn",
     link: "https://www.linkedin.com/in/fernando-ruiz-yamamoto/",
+    linkEs: "https://www.linkedin.com/in/fernando-ruiz-yamamoto/",
     icon: "linkedin",
     newTab: true,
   },
@@ -78,6 +80,7 @@ export const BtnList = [
     label: "Resume",
     labelEs: "CV",
     link: "/resume.pdf",
+    linkEs: "/resumeEs.pdf",
     icon: "resume",
     newTab: true,
   },

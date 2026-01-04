@@ -5,6 +5,7 @@ import FirefliesBackground from "@/components/FirefliesBackground";
 import Sound from "@/components/sound";
 import { LanguageProvider } from "@/context/LanguageContext";
 import LanguageButton from "@/components/LanguageButton";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
           <FirefliesBackground />
           <Sound />
           {children}
+          <Analytics />
           <div id="my-modal" />
           <LanguageButton />
         </LanguageProvider>
