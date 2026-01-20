@@ -36,7 +36,16 @@ export const projectsData = [
     demoLink: "https://chaskys.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
+    name: "Python Store Management",
+    nameEs: "Gestión de tienda con Python",
+    description: "UI made with QT Designer and access to PostgreSQL",
+    descriptionEs: "UI hecho con QT Designer y con acceso a PostgreSQL",
+    date: "2026-01-20",
+    demoLink: "https://trattoria-orcin.vercel.app/",
+  },
+  {
+    id: 5,
     name: "Trattoria Bella",
     nameEs: "Trattoria Bella",
     description: "Frontend of a restaurant using React",
@@ -45,7 +54,7 @@ export const projectsData = [
     demoLink: "https://trattoria-orcin.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     name: "Library management",
     nameEs: "Gestión Biblioteca",
     description: "Frontend and backend using Node.js",
