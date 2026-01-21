@@ -19,40 +19,41 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Next-js Portfolio",
-    nameEs: "Next-js Portfolio",
-    description: "Personal portfolio built with Next.js to showcase projects and skills using a modern, responsive, and performance-focused design.",
-    descriptionEs: "Portafolio personal creado con Next.js para mostrar proyectos y habilidades mediante un diseño moderno, responsivo y enfocado en el rendimiento.",
-    date: "2025-12-26",
-    demoLink: "https://fernando-ruiz-portfolio.vercel.app/",
-    tags: ["Javascript", "Tailwind CSS", "React", "Next.js", "Three.js" ]
-  },
-  {
-    id: 2,
-    name: "Chaskys",
-    nameEs: "Chaskys",
-    description: "Delivery app using React",
-    descriptionEs: "Delivery app con React",
-    date: "2025-12-11",
-    demoLink: "https://chaskys.vercel.app/",
-    tags: ["Javascript", "CSS", "React", ]
-  },
-  {
-    id: 3,
     name: "Python Store Management",
     nameEs: "Gestión de tienda con Python",
-    description: "UI made with QT Designer and access to PostgreSQL",
-    descriptionEs: "UI hecho con QT Designer y con acceso a PostgreSQL",
+    description: "A desktop application built with Python that provides a user-friendly interface for managing clients, employees, products, and receipts using a PostgreSQL database.",
+    descriptionEs: "Aplicación de escritorio desarrollada con Python que ofrece una interfaz para gestionar clientes, empleados, productos y comprobantes utilizando PostgreSQL.",
     date: "2026-01-20",
     demoLink: "https://github.com/fernandoruiz2016/python-store-management",
     tags: ["Python", "QT Designer", "PostgreSQL", "MVC"]
   },
   {
+    id: 2,
+    name: "Next-js Portfolio",
+    nameEs: "Next-js Portfolio",
+    description: "Personal portfolio built with Next.js to showcase projects and skills using a modern and responsive design.",
+    descriptionEs: "Portafolio personal creado con Next.js para mostrar proyectos y habilidades mediante un diseño moderno y responsivo rendimiento.",
+    date: "2025-12-26",
+    demoLink: "https://fernando-ruiz-portfolio.vercel.app/",
+    tags: ["Javascript", "Tailwind CSS", "React", "Next.js", "Three.js" ]
+  },
+  {
+    id: 3,
+    name: "Chaskys",
+    nameEs: "Chaskys",
+    description: "A delivery application built with React that allows users to browse orders and track deliveries. It allows users to create or recover an account and modify their contact info.",
+    descriptionEs: "Aplicación de delivery desarrollada con React que permite a los usuarios explorar pedidos y realizar el seguimiento de entregas. Permite crear o recuperar una cuenta y modificar la información de contacto.",
+    date: "2025-12-11",
+    demoLink: "https://chaskys.vercel.app/",
+    tags: ["Javascript", "CSS", "React", ]
+  },
+  
+  {
     id: 4,
     name: "Trattoria Bella",
     nameEs: "Trattoria Bella",
-    description: "Frontend of a restaurant using React",
-    descriptionEs: "Frontend de un restaurante con React",
+    description: "Course frontend project focused on building a restaurant website with a reservation feature.",
+    descriptionEs: "Proyecto frontend de curso enfocado en la creación de una página web de restaurante con funcionalidad de reservas.",
     date: "2025-11-06",
     demoLink: "https://trattoria-orcin.vercel.app/",
     tags: ["Javascript", "CSS", "React"]
@@ -61,8 +62,8 @@ export const projectsData = [
     id: 5,
     name: "Library management",
     nameEs: "Gestión Biblioteca",
-    description: "Frontend and backend using Node.js",
-    descriptionEs: "Frontend y backend con Node.js",
+    description: "Full-stack project that includes both frontend and backend development using Node.js. The application allows library management features such as handling books, users, and records.",
+    descriptionEs: "Proyecto full-stack que incluye desarrollo de frontend y backend utilizando Node.js. La aplicación permite la gestión de una biblioteca, como el manejo de libros, usuarios y registros.",
     date: "2025-11-13",
     demoLink: "https://github.com/fernandoruiz2016/Gestion-biblioteca",
     tags: ["Javascript", "CSS", "Node.js", , "PostgreSQL"]
