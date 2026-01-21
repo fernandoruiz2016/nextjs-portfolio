@@ -25,6 +25,7 @@ export const projectsData = [
     descriptionEs: "Portfolio personal con Next.js",
     date: "2025-12-26",
     demoLink: "https://fernando-ruiz-portfolio.vercel.app/",
+    tags: ["Javascript", "React", "Next.js", "Tailwind"]
   },
   {
     id: 2,
@@ -34,6 +35,7 @@ export const projectsData = [
     descriptionEs: "Delivery app con React",
     date: "2025-12-11",
     demoLink: "https://chaskys.vercel.app/",
+    tags: ["Javascript", "React", "CSS"]
   },
   {
     id: 4,
@@ -43,6 +45,7 @@ export const projectsData = [
     descriptionEs: "UI hecho con QT Designer y con acceso a PostgreSQL",
     date: "2026-01-20",
     demoLink: "https://trattoria-orcin.vercel.app/",
+    tags: ["Python", "QT Designer", "PostgreSQL", "MVC"]
   },
   {
     id: 5,
@@ -52,6 +55,7 @@ export const projectsData = [
     descriptionEs: "Frontend de un restaurante con React",
     date: "2025-11-06",
     demoLink: "https://trattoria-orcin.vercel.app/",
+    tags: ["Javascript", "React", "CSS"]
   },
   {
     id: 6,
@@ -61,6 +65,7 @@ export const projectsData = [
     descriptionEs: "Frontend y backend con Node.js",
     date: "2025-11-13",
     demoLink: "https://github.com/fernandoruiz2016/Gestion-biblioteca",
+    tags: ["Javascript", "Node.js", "CSS", "PostgreSQL"]
   }
 ];
 
