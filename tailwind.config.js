@@ -15,8 +15,8 @@ module.exports = {
         foreground: 'rgb(var(--foreground))',
         muted: 'rgb(var(--muted))',
         accent: 'rgb(var(--accent))',
-        accent2: 'rgb(var(--accent2))',
-        fadeaccent2: 'rgb(var(--fadeaccent2))',
+        skyblue: 'rgb(var(--skyblue))',
+        fadeskyblue: 'rgb(var(--fadeskyblue))',
       },
       backgroundImage: {
         'firefly-radial': "radial-gradient(50% 50% at 50% 50%, rgba(253, 255, 80, 0.5) 0%, rgba(217, 217, 217, 0) 100%)"

@@ -21,11 +21,11 @@ export const projectsData = [
     id: 1,
     name: "Next-js Portfolio",
     nameEs: "Next-js Portfolio",
-    description: "Personal portfolio with Next.js",
-    descriptionEs: "Portfolio personal con Next.js",
+    description: "Personal portfolio built with Next.js to showcase projects and skills using a modern, responsive, and performance-focused design.",
+    descriptionEs: "Portafolio personal creado con Next.js para mostrar proyectos y habilidades mediante un diseño moderno, responsivo y enfocado en el rendimiento.",
     date: "2025-12-26",
     demoLink: "https://fernando-ruiz-portfolio.vercel.app/",
-    tags: ["Javascript", "React", "Next.js", "Tailwind"]
+    tags: ["Javascript", "Tailwind CSS", "React", "Next.js", "Three.js" ]
   },
   {
     id: 2,
@@ -35,37 +35,37 @@ export const projectsData = [
     descriptionEs: "Delivery app con React",
     date: "2025-12-11",
     demoLink: "https://chaskys.vercel.app/",
-    tags: ["Javascript", "React", "CSS"]
+    tags: ["Javascript", "CSS", "React", ]
   },
   {
-    id: 4,
+    id: 3,
     name: "Python Store Management",
     nameEs: "Gestión de tienda con Python",
     description: "UI made with QT Designer and access to PostgreSQL",
     descriptionEs: "UI hecho con QT Designer y con acceso a PostgreSQL",
     date: "2026-01-20",
-    demoLink: "https://trattoria-orcin.vercel.app/",
+    demoLink: "https://github.com/fernandoruiz2016/python-store-management",
     tags: ["Python", "QT Designer", "PostgreSQL", "MVC"]
   },
   {
-    id: 5,
+    id: 4,
     name: "Trattoria Bella",
     nameEs: "Trattoria Bella",
     description: "Frontend of a restaurant using React",
     descriptionEs: "Frontend de un restaurante con React",
     date: "2025-11-06",
     demoLink: "https://trattoria-orcin.vercel.app/",
-    tags: ["Javascript", "React", "CSS"]
+    tags: ["Javascript", "CSS", "React"]
   },
   {
-    id: 6,
+    id: 5,
     name: "Library management",
     nameEs: "Gestión Biblioteca",
     description: "Frontend and backend using Node.js",
     descriptionEs: "Frontend y backend con Node.js",
     date: "2025-11-13",
     demoLink: "https://github.com/fernandoruiz2016/Gestion-biblioteca",
-    tags: ["Javascript", "Node.js", "CSS", "PostgreSQL"]
+    tags: ["Javascript", "CSS", "Node.js", , "PostgreSQL"]
   }
 ];
 

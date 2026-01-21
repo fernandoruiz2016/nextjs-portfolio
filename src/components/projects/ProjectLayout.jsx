@@ -52,11 +52,11 @@ const ProjectLayout = ({ name, nameEs, description, descriptionEs, date, demoLin
                 </p>   
             </div>
 
-            <p className='text-muted sm:inline-block'>{lang === "en" ? description : descriptionEs}</p>
+            <p className='text-muted text-center sm:inline-block'>{lang === "en" ? description : descriptionEs}</p>
 
-            <div className='flex items-center justify-start w-full gap-10'>
+            <div className='flex items-center justify-center w-full gap-10'>
                 {tags.map((tag) => (
-                    <span key={tag} className='text-xs px-2 py-1 rounded-md text-fadeaccent2 border border-accent2 bg-accent2/90'>{tag}</span>
+                    <span key={tag} className='text-sm px-2 py-1 rounded-md text-fadeskyblue border border-skyblue bg-skyblue/90'>{tag}</span>
                 ))}
             </div>
 
