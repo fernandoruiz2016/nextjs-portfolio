@@ -54,7 +54,7 @@ const ProjectLayout = ({ name, nameEs, description, descriptionEs, date, demoLin
 
             <p className='text-muted text-center sm:inline-block'>{lang === "en" ? description : descriptionEs}</p>
 
-            <div className='flex items-center justify-center w-full gap-10'>
+            <div className='flex items-center justify-center w-full gap-x-5 sm:gap-x-10 gap-y-5 flex-wrap'>
                 {tags.map((tag) => (
                     <span key={tag} className='text-sm px-2 py-1 rounded-md text-fadeskyblue border border-skyblue bg-skyblue/90'>{tag}</span>
                 ))}
