@@ -24,7 +24,7 @@ export const projectsData = [
     description: "Frontend project built with Angular featuring appointment management for pets and owners, with secure route guards for session control.",
     descriptionEs: "Proyecto frontend desarrollado en Angular que permite la gestión de citas para mascotas y dueños, con protección de rutas (Guards) para el control de sesiones.",
     date: "2026-03-09",
-    demoLink: "https://github.com/fernandoruiz2016/Soporte-Tecnico-SpringBoot",
+    demoLink: "https://veterinaria-nine-phi.vercel.app",
     tags: ["TypeScript", "Angular", "Frontend"]
   },
 
