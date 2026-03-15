@@ -19,6 +19,28 @@ Websites:
 export const projectsData = [
   {
     id: 1,
+    name: "Vet Pet Care",
+    nameEs: "Veterinaria Pet Care",
+    description: "Frontend project built with Angular featuring appointment management for pets and owners, with secure route guards for session control.",
+    descriptionEs: "Proyecto frontend desarrollado en Angular que permite la gestión de citas para mascotas y dueños, con protección de rutas (Guards) para el control de sesiones.",
+    date: "2026-03-09",
+    demoLink: "https://github.com/fernandoruiz2016/Soporte-Tecnico-SpringBoot",
+    tags: ["TypeScript", "Angular", "Frontend"]
+  },
+
+  {
+    id: 2,
+    name: "IT Support API",
+    nameEs: "API de Soporte Técnico",
+    description: "A RESTful API for IT support built with Java Spring Boot. It manages clients, technicians and requests.",
+    descriptionEs: "Una API RESTful para soporte técnico desarrollada con Java Spring Boot. Maneja clientes, técnicos y solicitudes",
+    date: "2026-03-09",
+    demoLink: "https://github.com/fernandoruiz2016/Soporte-Tecnico-SpringBoot",
+    tags: ["Java", "Spring Boot", "MVC", "Backend"]
+  },
+
+  {
+    id: 3,
     name: "Python Store Management",
     nameEs: "Gestión de tienda con Python",
     description: "A desktop application built with Python that provides a user-friendly interface for managing clients, employees, products, and receipts using a PostgreSQL database.",
@@ -28,7 +50,7 @@ export const projectsData = [
     tags: ["Python", "QT Designer", "PostgreSQL", "MVC"]
   },
   {
-    id: 2,
+    id: 4,
     name: "Next-js Portfolio",
     nameEs: "Next-js Portfolio",
     description: "Personal portfolio built with Next.js to showcase projects and skills using a modern and responsive design.",
@@ -38,7 +60,7 @@ export const projectsData = [
     tags: ["Javascript", "Tailwind CSS", "React", "Next.js", "Three.js" ]
   },
   {
-    id: 3,
+    id: 5,
     name: "Chaskys",
     nameEs: "Chaskys",
     description: "A delivery application built with React that allows users to browse orders and track deliveries. It allows users to create or recover an account and modify their contact info.",
@@ -49,7 +71,18 @@ export const projectsData = [
   },
   
   {
-    id: 4,
+    id: 6,
+    name: "Library management",
+    nameEs: "Gestión Biblioteca",
+    description: "Full-stack project that includes both frontend and backend development using Node.js. The application allows library management features such as handling books, users, and records.",
+    descriptionEs: "Proyecto full-stack que incluye desarrollo de frontend y backend utilizando Node.js. La aplicación permite la gestión de una biblioteca, como el manejo de libros, usuarios y registros.",
+    date: "2025-11-13",
+    demoLink: "https://github.com/fernandoruiz2016/Gestion-biblioteca",
+    tags: ["Javascript", "CSS", "Node.js", , "PostgreSQL"]
+  },
+
+  {
+    id: 7,
     name: "Trattoria Bella",
     nameEs: "Trattoria Bella",
     description: "Course frontend project focused on building a restaurant website with a reservation feature.",
@@ -58,16 +91,7 @@ export const projectsData = [
     demoLink: "https://trattoria-orcin.vercel.app/",
     tags: ["Javascript", "CSS", "React"]
   },
-  {
-    id: 5,
-    name: "Library management",
-    nameEs: "Gestión Biblioteca",
-    description: "Full-stack project that includes both frontend and backend development using Node.js. The application allows library management features such as handling books, users, and records.",
-    descriptionEs: "Proyecto full-stack que incluye desarrollo de frontend y backend utilizando Node.js. La aplicación permite la gestión de una biblioteca, como el manejo de libros, usuarios y registros.",
-    date: "2025-11-13",
-    demoLink: "https://github.com/fernandoruiz2016/Gestion-biblioteca",
-    tags: ["Javascript", "CSS", "Node.js", , "PostgreSQL"]
-  }
+  
 ];
 
 export const BtnList = [
