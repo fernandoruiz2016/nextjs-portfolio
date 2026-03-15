@@ -43,6 +43,11 @@ const AboutDetails = () => {
                             <span >Python</span>
                         </li>
                         <li className="flex gap-5 items-center w-full">
+                            <img className='size-12 shrink-0 object-contain' src="https://skillicons.dev/icons?i=java"
+                                alt="Java" loading="lazy" />
+                            <span >Java</span>
+                        </li>
+                        <li className="flex gap-5 items-center w-full">
                             <img className='size-12 shrink-0 object-contain' src="https://skillicons.dev/icons?i=js"
                                 alt="JavaScript" loading="lazy" />
                             <span>JavaScript</span>
@@ -96,8 +101,8 @@ const AboutDetails = () => {
                     </h2>
                     <ul className="flex flex-wrap gap-4 justify-center">
                         {[
-                            'bootstrap', 'figma', 'git', 'github', 'nextjs', 'nodejs',
-                            'pycharm', 'qt', 'tailwind', 'threejs', 'react', 'vercel', 'vite', 'vscode'
+                            'angular', 'bootstrap', 'figma', 'git', 'github', 'nextjs', 'nodejs', 'postman',
+                            'pycharm', 'qt', 'spring', 'tailwind', 'threejs', 'react', 'vercel', 'vite', 'vscode'
                         ].map(icon => (
                             <li key={icon} className="flex items-center">
                                 <img
