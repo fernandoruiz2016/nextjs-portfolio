@@ -2,7 +2,7 @@ export const translations = {
     en: {
         AboutTitle: "Meet the wizard behind this portfolio",
         AboutSubtitle: "Spellcrafter of the Web",
-        AboutText: "I am an adventurer and developer mage, mastering both frontend and backend arts. JavaScript and Python are my core spells, channeled through powerful frameworks like React and Next.js. My grimoires include database management, where I work with SQL Server and SQL Developer to store and protect knowledge. Every project is an enchantment in progress, blending performance, clean architecture, and visual design to create captivating digital experiences. Join me as I continue to explore new spells and technologies to shape the future of the web.",
+        AboutText: "I am an adventurer and developer mage, mastering both frontend and backend arts. JavaScript, Java and Python are my core spells, channeled through powerful frameworks like React, Angular and Next.js. My grimoires include database management, where I work with SQL Server and SQL Developer to store and protect knowledge. Every project is an enchantment in progress, blending performance, clean architecture, and visual design to create captivating digital experiences. Join me as I continue to explore new spells and technologies to shape the future of the web.",
         AboutSpells: "Most Used Spells",
         AboutGrimoires: "Favorites Grimoires",
         ContactTitle: "Summon the wizard",
@@ -15,7 +15,7 @@ export const translations = {
     es: {
         AboutTitle: "Conoce al mago detrás de este portfolio",
         AboutSubtitle: "Forjador de Hechizos Web",
-        AboutText: "Soy un aventurero y mago desarrollador, dominando tanto las artes del frontend como del backend. JavaScript y Python son mis hechizos principales, canalizados a través de poderosos frameworks como React y Next.js. Mis grimorios incluyen la gestión de bases de datos, donde trabajo con SQL Server y SQL Developer para almacenar y proteger el conocimiento. Cada proyecto es un encantamiento en proceso, combinando rendimiento, arquitectura limpia y diseño visual para crear experiencias digitales cautivadoras. Acompáñame mientras continúo explorando nuevos hechizos y tecnologías para dar forma al futuro de la web.",
+        AboutText: "Soy un aventurero y mago desarrollador, dominando tanto las artes del frontend como del backend. JavaScript, Java y Python son mis hechizos principales, canalizados a través de poderosos frameworks como React, Angular y Next.js. Mis grimorios incluyen la gestión de bases de datos, donde trabajo con SQL Server y SQL Developer para almacenar y proteger el conocimiento. Cada proyecto es un encantamiento en proceso, combinando rendimiento, arquitectura limpia y diseño visual para crear experiencias digitales cautivadoras. Acompáñame mientras continúo explorando nuevos hechizos y tecnologías para dar forma al futuro de la web.",
         AboutSpells: "Hechizos Más Usados",
         AboutGrimoires: "Grimorios Favoritos",
         ContactTitle: "Invoca al mago",

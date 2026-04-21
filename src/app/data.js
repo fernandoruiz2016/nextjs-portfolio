@@ -17,30 +17,86 @@ Websites:
 */
 
 export const projectsData = [
+  
   {
     id: 1,
+    name: "Spring Boot Library Management",
+    nameEs: "Gestión de Biblioteca con Spring Boot",
+    description: "A RESTful API built with Spring Boot for managing books, authors, and loans, implementing clean architecture and JPA for data persistence.",
+    descriptionEs: "API REST desarrollada con Spring Boot para la gestión de libros, autores y préstamos, implementando arquitectura limpia y JPA para la persistencia de datos.",
+    date: "2026-04-16",
+    demoLink: "https://github.com/fernandoruiz2016/API-Biblioteca-SpringBoot",
+    tags: ["Java", "Spring Boot", "Microservices", "Backend", "PostgreSQL"]
+  },
+
+  {
+    id: 2,
+    name: "Educational Institution Management",
+    nameEs: "Gestión de Institución Educativa",
+    description: "Full-stack project focused on advanced Angular development, featuring a robust frontend client integrated with a Node.js backend and PostgreSQL. This project showcases Angular's core capabilities, including Reactive Forms, component architecture, and modular design.",
+    descriptionEs: "Proyecto Full-stack con énfasis en el desarrollo avanzado con Angular, que presenta un cliente frontend robusto integrado con un backend en Node.js y PostgreSQL. El proyecto destaca capacidades clave de Angular como Formularios Reactivos, arquitectura de componentes y diseño modular.",
+    date: "2026-04-13",
+    demoLink: "https://github.com/fernandoruiz2016/Gestion-Cursos-Angular",
+    tags: ["TypeScript", "Angular", "Node.js", "PostgreSQL"]
+  },
+
+  {
+    id: 3,
+    name: "Medical Center Management",
+    nameEs: "Gestión de Clínica",
+    description: "Full-stack project that includes a backend server built with Node.js, a frontend client built with Angular, and a connection to a PostgreSQL database.",
+    descriptionEs: "Proyecto Full-stack que incluye un servidor backend desarrollado con Node.js, un cliente frontend con Angular y conexión a una base de datos PostgreSQL.",
+    date: "2026-04-11",
+    demoLink: "https://github.com/fernandoruiz2016/Clinica",
+    tags: ["TypeScript", "Angular", "Node.js", "PostgreSQL"]
+  },
+
+  {
+    id: 4,
+    name: "Medical Center Management",
+    nameEs: "Gestión de Clínica",
+    description: "Full-stack project that includes a backend server built with Node.js, a frontend client built with Angular, and a connection to a PostgreSQL database.",
+    descriptionEs: "Proyecto Full-stack que incluye un servidor backend desarrollado con Node.js, un cliente frontend con Angular y conexión a una base de datos PostgreSQL.",
+    date: "2026-04-11",
+    demoLink: "https://github.com/fernandoruiz2016/Clinica",
+    tags: ["TypeScript", "Angular", "Node.js", , "PostgreSQL"]
+  },
+
+  {
+    id: 5,
+    name: "Design Patterns in Java",
+    nameEs: "Patrones de Diseño en Java",
+    description: "Java desktop application demonstrating the practical implementation of design patterns",
+    descriptionEs: "Aplicación de escritorio en Java que demuestra la implementación práctica de patrones de diseño.",
+    date: "2026-03-14",
+    demoLink: "https://github.com/fernandoruiz2016/Patrones-Diseno",
+    tags: ["Java", "MVC", "Design Patterns"]
+  },
+
+  {
+    id: 6,
     name: "Vet Pet Care",
     nameEs: "Veterinaria Pet Care",
     description: "Frontend project built with Angular featuring appointment management for pets and owners, with secure route guards for session control.",
     descriptionEs: "Proyecto frontend desarrollado en Angular que permite la gestión de citas para mascotas y dueños, con protección de rutas (Guards) para el control de sesiones.",
-    date: "2026-03-09",
+    date: "2026-03-12",
     demoLink: "https://veterinaria-nine-phi.vercel.app",
     tags: ["TypeScript", "Angular", "Frontend"]
   },
 
   {
-    id: 2,
+    id: 7,
     name: "IT Support API",
     nameEs: "API de Soporte Técnico",
     description: "A RESTful API for IT support built with Java Spring Boot. It manages clients, technicians and requests.",
     descriptionEs: "Una API RESTful para soporte técnico desarrollada con Java Spring Boot. Maneja clientes, técnicos y solicitudes",
     date: "2026-03-09",
     demoLink: "https://github.com/fernandoruiz2016/Soporte-Tecnico-SpringBoot",
-    tags: ["Java", "Spring Boot", "MVC", "Backend"]
+    tags: ["Java", "Spring Boot", "Microservices", "Backend"]
   },
 
   {
-    id: 3,
+    id: 8,
     name: "Python Store Management",
     nameEs: "Gestión de tienda con Python",
     description: "A desktop application built with Python that provides a user-friendly interface for managing clients, employees, products, and receipts using a PostgreSQL database.",
@@ -50,7 +106,7 @@ export const projectsData = [
     tags: ["Python", "QT Designer", "PostgreSQL", "MVC"]
   },
   {
-    id: 4,
+    id: 9,
     name: "Next-js Portfolio",
     nameEs: "Next-js Portfolio",
     description: "Personal portfolio built with Next.js to showcase projects and skills using a modern and responsive design.",
@@ -60,7 +116,7 @@ export const projectsData = [
     tags: ["Javascript", "Tailwind CSS", "React", "Next.js", "Three.js" ]
   },
   {
-    id: 5,
+    id: 10,
     name: "Chaskys",
     nameEs: "Chaskys",
     description: "A delivery application built with React that allows users to browse orders and track deliveries. It allows users to create or recover an account and modify their contact info.",
@@ -71,7 +127,7 @@ export const projectsData = [
   },
   
   {
-    id: 6,
+    id: 11,
     name: "Library management",
     nameEs: "Gestión Biblioteca",
     description: "Full-stack project that includes both frontend and backend development using Node.js. The application allows library management features such as handling books, users, and records.",
@@ -82,7 +138,7 @@ export const projectsData = [
   },
 
   {
-    id: 7,
+    id: 12,
     name: "Trattoria Bella",
     nameEs: "Trattoria Bella",
     description: "Course frontend project focused on building a restaurant website with a reservation feature.",
