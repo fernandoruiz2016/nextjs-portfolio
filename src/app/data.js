@@ -53,17 +53,6 @@ export const projectsData = [
 
   {
     id: 4,
-    name: "Medical Center Management",
-    nameEs: "Gestión de Clínica",
-    description: "Full-stack project that includes a backend server built with Node.js, a frontend client built with Angular, and a connection to a PostgreSQL database.",
-    descriptionEs: "Proyecto Full-stack que incluye un servidor backend desarrollado con Node.js, un cliente frontend con Angular y conexión a una base de datos PostgreSQL.",
-    date: "2026-04-11",
-    demoLink: "https://github.com/fernandoruiz2016/Clinica",
-    tags: ["TypeScript", "Angular", "Node.js", , "PostgreSQL"]
-  },
-
-  {
-    id: 5,
     name: "Design Patterns in Java",
     nameEs: "Patrones de Diseño en Java",
     description: "Java desktop application demonstrating the practical implementation of design patterns",
@@ -74,7 +63,7 @@ export const projectsData = [
   },
 
   {
-    id: 6,
+    id: 5,
     name: "Vet Pet Care",
     nameEs: "Veterinaria Pet Care",
     description: "Frontend project built with Angular featuring appointment management for pets and owners, with secure route guards for session control.",
@@ -85,7 +74,7 @@ export const projectsData = [
   },
 
   {
-    id: 7,
+    id: 6,
     name: "IT Support API",
     nameEs: "API de Soporte Técnico",
     description: "A RESTful API for IT support built with Java Spring Boot. It manages clients, technicians and requests.",
@@ -96,7 +85,7 @@ export const projectsData = [
   },
 
   {
-    id: 8,
+    id: 7,
     name: "Python Store Management",
     nameEs: "Gestión de tienda con Python",
     description: "A desktop application built with Python that provides a user-friendly interface for managing clients, employees, products, and receipts using a PostgreSQL database.",
@@ -106,7 +95,7 @@ export const projectsData = [
     tags: ["Python", "QT Designer", "PostgreSQL", "MVC"]
   },
   {
-    id: 9,
+    id: 8,
     name: "Next-js Portfolio",
     nameEs: "Next-js Portfolio",
     description: "Personal portfolio built with Next.js to showcase projects and skills using a modern and responsive design.",
@@ -116,7 +105,7 @@ export const projectsData = [
     tags: ["Javascript", "Tailwind CSS", "React", "Next.js", "Three.js" ]
   },
   {
-    id: 10,
+    id: 9,
     name: "Chaskys",
     nameEs: "Chaskys",
     description: "A delivery application built with React that allows users to browse orders and track deliveries. It allows users to create or recover an account and modify their contact info.",
@@ -127,7 +116,7 @@ export const projectsData = [
   },
   
   {
-    id: 11,
+    id: 10,
     name: "Library management",
     nameEs: "Gestión Biblioteca",
     description: "Full-stack project that includes both frontend and backend development using Node.js. The application allows library management features such as handling books, users, and records.",
@@ -138,7 +127,7 @@ export const projectsData = [
   },
 
   {
-    id: 12,
+    id: 11,
     name: "Trattoria Bella",
     nameEs: "Trattoria Bella",
     description: "Course frontend project focused on building a restaurant website with a reservation feature.",
